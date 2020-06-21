@@ -1,0 +1,3 @@
+﻿  Updater.cpp
+C:\Users\Carl\source\repos\Updater\Updater.cpp(49,31): warning C4244:  '=': conversion from 'std::streamoff' to 'int', possible loss of data
+  Updater.vcxproj -> C:\Users\Carl\source\repos\Updater\Debug\Updater.exe
