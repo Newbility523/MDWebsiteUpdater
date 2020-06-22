@@ -1,3 +1,6 @@
 ﻿  Updater.cpp
-C:\Users\Carl\source\repos\Updater\Updater.cpp(49,31): warning C4244:  '=': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Carl\source\repos\Updater\Updater.cpp(56,31): warning C4244:  '=': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Carl\source\repos\Updater\Updater.cpp(169,19): warning C4244:  'initializing': conversion from 'uintmax_t' to 'int', possible loss of data
+C:\Users\Carl\source\repos\Updater\Updater.cpp(187,31): warning C4244:  '=': conversion from 'std::streamoff' to 'int', possible loss of data
+C:\Users\Carl\source\repos\Updater\Updater.cpp(177): warning C4715:  'ClearTargetDirectory': not all control paths return a value
   Updater.vcxproj -> C:\Users\Carl\source\repos\Updater\Debug\Updater.exe
