@@ -34,7 +34,7 @@ struct FileInfo {
         strcat(buffer, "\\");
         strcat(buffer, name);
         strcat(buffer, extend);
-     }
+    }
 };
 
 class Updater
@@ -50,8 +50,8 @@ public:
     void CreateCatalog(char const* dir)
     {
         const char* searchTail = "\\*";
-        char curPath[30];
-        char searchPath[30];
+        char curPath[100];
+        char searchPath[100];
         strcpy(curPath, dir);
         strcpy(searchPath, curPath);
         strcat(searchPath, searchTail);
@@ -62,7 +62,7 @@ public:
         handle = _findfirst(searchPath, &findData);
         // string a = "abc";
         // handle = _findfirst(a, &findData);
-        if (handle == -1 or findData.attrib & _A_HIDDEN)
+        if (handle == -1 || findData.attrib & _A_HIDDEN)
         {
             return;
         }
